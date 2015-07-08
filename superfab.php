@@ -46,7 +46,7 @@
 <div class="footer">	
 	<div class="container">
 	<?php 
-	echo "Name: ". "Yi Bing (Jessica) Zhao  ";
+	echo "Name: ". "Yi Bing (Jess) Zhao  ";
 	echo "Student Number: ". "999826210  ". "<br>";
 	echo "Today is " . date(" l "). date("Y/m/d."); ?>
 	</div>
