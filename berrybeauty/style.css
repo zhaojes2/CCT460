@@ -47,6 +47,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -54,7 +58,8 @@ html {
 }
 
 body {
-	margin: 0;
+	margin: 0 0 20px 0;
+	padding: 0;
 }
 
 article,
@@ -271,10 +276,11 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
+	color: #333;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
+	font-family: 'Lato', Verdana, Arial, Sans-Serif;
 }
 
 h1,
@@ -286,10 +292,45 @@ h6 {
 	clear: both;
 }
 
+h1 {
+	font-family: 'Lobster','Trebuchet MS', 'Lucida Grande';
+	font-size: 4 em;
+	}
+
 p {
 	margin-bottom: 1.5em;
 }
 
+h2 a {
+	padding-left: 35px;
+	background: url('http://i58.tinypic.com/1198pop.jpg') no-repeat;
+	
+}
+
+h2.pagetitle {
+	font-size: 2.5em;
+	font-family: Georgia, 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+h3 { 
+	font-size: 1em; 
+}
+
+h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description {
+	text-decoration: none;
+	font-family: 'Lobster', 'Lucida Grande', Verdana, Sans-Serif;
+	color: #fff;
+	font-size: 65px;
+	}
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited { 
+	color: #333; 
+}
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+	text-decoration: none;
+	}
+	
 dfn,
 cite,
 em,
@@ -356,7 +397,7 @@ html {
 }
 
 body {
-	background: #fff; /* Fallback for when there is no custom background color defined. */
+	background: #FFE6E6 url('http://www.solidbackgrounds.com/images/1280x768/1280x768-light-pink-solid-color-background.jpg') repeat;
 }
 
 blockquote:before,
@@ -486,6 +527,36 @@ input[type="search"] {
 textarea {
 	padding-left: 3px;
 	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+
+.container{
+	background: none repeat scroll 0 0 transparent;
+    margin: 0 auto;
+	width:960px;
+}
+#primary{
+	margin:auto;
+	padding: 0;
+    width: 750px;
+}
+#secondary{
+}
+#main{
+	padding-top:30px;
+}
+#page {
+	background-color: #FDEEF4;
+	margin: 0px auto;
+	padding: 0px;
+	width: 760px;
+	border: 0px solid #000;
+	text-align: left;
+	border-radius: 10px;
+	padding: 20px 40px 20px 40px;
 }
 
 /*--------------------------------------------------------------
