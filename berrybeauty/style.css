@@ -536,12 +536,12 @@ textarea {
 .container{
 	background: none repeat scroll 0 0 transparent;
     margin: 0 auto;
-	width:960px;
+	width:760px;
 }
 #primary{
 	margin:auto;
 	padding: 0;
-    width: 750px;
+    width: 760px;
 }
 #secondary{
 }
@@ -554,14 +554,66 @@ textarea {
 	padding: 0px;
 	width: 760px;
 	border: 0px solid #000;
-	text-align: left;
 	border-radius: 10px;
 	padding: 20px 40px 20px 40px;
 }
+.gridcontainer{
+    padding: 3.126%;
+    max-width:100%;
+    }
+
+.gridcontainer h2 a{
+   color: #731A33;
+} 
+
+.gridcontainer h2 a:hover{
+   color: #C86883;} 
+.gridcontainer .gridleft
+{   float: left; 
+    width: 20.83%; 
+    margin: 0 2.08%;
+}
+.gridcontainer .gridright{
+    float: left;
+    width: 20.83%;
+    margin: 0 1.04% 0 2.08%;
+}
+.gridcontainer .postimage{
+    margin: 0 0 0.52% 0;
+}
+.gridcontainer .postimage-title {
+    text-align: center;
+    font-family: 'Fredericka the Great','Times New Roman', sans-serif;
+}
+
+
 
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
+#masthead{
+	height:auto;	
+}
+.site-branding{
+	text-align:center; 
+}
+.site-branding a {
+    font-size: 6em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster','Trebuchet MS', 'Lucida Grande';
+    text-decoration: none;
+    color:#ffffff;
+}
+#site-navigation{
+	background-color:#ffffff;
+	width:100%;
+	padding:10px;
+	border-radius: 25px;
+
+}
+
+
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
@@ -599,20 +651,29 @@ a:active {
 }
 
 .main-navigation ul {
-	display: none;
+	display:inline-block;
 	list-style: none;
-	margin: 0;
-	padding-left: 0;
+	margin: 0 auto;
+    padding-left: 0;
+    text-align: center;
+    width: auto;
 }
 
 .main-navigation li {
-	float: left;
+ 	float: center;
+	padding:0 8px;
 	position: relative;
+	display:inline-block;
 }
 
 .main-navigation a {
-	display: block;
-	text-decoration: none;
+    display: block;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .main-navigation ul ul {
@@ -828,6 +889,7 @@ a:active {
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
+	width:680px;
 }
 
 .page-links {
