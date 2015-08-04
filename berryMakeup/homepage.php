@@ -23,25 +23,6 @@
     </ul>
 </div>
 
-<!-- Slideshow HTML -->
-<!-- <div id="slideshow">
-  <div id="slidesContainer">
-    <div class="slide">
-      <img src="http://lorempixel.com/g/400/200/">
-    </div>
-    <div class="slide">
-      <img src="http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg">
-    </div>
-    <div class="slide">
-      <img src="http://lorempixel.com/g/400/201/">
-    </div>
-    <div class="slide">
-      <img src="http://lorempixel.com/g/400/202/">
-    </div>
-  </div>
-</div>
-Slideshow HTML -->
-
 <div class="gridcontainer">
 
 <?php
@@ -56,7 +37,7 @@ $titlelength = 20;
 * will show 10 posts, no sticky posts */
 $args = array(
     'ignore_sticky_posts' => 1,
-    'showposts' => 10, 
+    'showposts' => 6, 
     'cat' => 40);
 $my_query = new WP_Query($args);
 
