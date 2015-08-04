@@ -1,7 +1,7 @@
 /*
-Theme Name: BerryBeauty
+Theme Name: BerryMakeup
 Theme URI: http://underscores.me/
-Author: Underscores.me
+Author: YiBing Zhao, Tiffany Lam
 Author URI: http://underscores.me/
 Description: Description
 Version: 1.0.0
@@ -50,7 +50,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 @import url(http://fonts.googleapis.com/css?family=Lato);
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Philosopher);
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -280,7 +281,7 @@ textarea {
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
-	font-family: 'Lato', Verdana, Arial, Sans-Serif;
+	font-family: 'Open Sans', Verdana, Arial, Sans-Serif;
 }
 
 h1,
@@ -377,6 +378,14 @@ big {
 	font-size: 125%;
 }
 
+p.site-description {
+	font-family: 'Philosopher', 'Lucida Grande', Verdana, Sans-Serif;
+	color: #904955;
+}
+
+.sub-menu a{
+	color: #960A24;
+}
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -546,18 +555,24 @@ textarea {
 	background-color: #FDEEF4;
 	margin: 0px auto;
 	padding: 0px;
-	width: 760px;
+	width: 860px;
 	border: 0px solid #000;
-	border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 	padding: 20px 40px 20px 40px;
 }
+
+/* Home page grid*/
+
 .gridcontainer{
     max-width:660px;
-    margin:auto;
+    margin-top: 40px;
     }
 
 .gridcontainer h2 a{
    color: #731A33;
+   font-family: 'Philosopher','Times New Roman', sans-serif;
+   color: #960A24;
 
 } 
 
@@ -580,15 +595,22 @@ textarea {
 }
 .gridcontainer .postimage-title {
     text-align: center;
-    font-family: 'Fredericka the Great','Times New Roman', sans-serif;
 }
 .postimage img {
     height: 150px;
     width: 150px;
 }
 
-
-
+#colophon {
+    padding: 20px;
+    margin: 0px auto;
+    width: 860px;
+    clear: both;
+    background: #F9E2E6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Helvetica, "Times New Roman"
+}
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -607,10 +629,11 @@ textarea {
     color:#ffffff;
 }
 #site-navigation{
-	background-color:transparent;
+	background-color:#FDEEF4;
 	width:100%;
 	padding:10px;
-	border-radius: 25px;
+	border-radius: 20px;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -619,7 +642,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: black;
 }
 
 a:visited {
@@ -681,9 +704,10 @@ a:active {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
 	position: absolute;
-	top: 1.5em;
 	left: -999em;
 	z-index: 99999;
+	background-color: #FDEEF4;
+	margin-top: 2px;
 }
 
 .main-navigation ul ul ul {
@@ -696,7 +720,7 @@ a:active {
 }
 
 .main-navigation ul ul li {
-
+	margin-top: 10px;
 }
 
 .main-navigation li:hover > a,
