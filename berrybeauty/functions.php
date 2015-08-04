@@ -1,6 +1,6 @@
 <?php
 /**
- * BerryBeauty functions and definitions
+ * BerryMakeup functions and definitions
  *
  * @package BerryBeauty
  */
@@ -163,3 +163,10 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
+<<<<<<< Updated upstream
+=======
+/**
+ * This will control the theme options 
+ */
+require get_stylesheet_directory() . '/inc/options.php';
+>>>>>>> Stashed changes
