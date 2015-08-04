@@ -111,6 +111,19 @@ add_action( 'widgets_init', 'berrybeauty_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
+
+function my_scripts_method() {
+// register your script location, dependencies and version
+   wp_register_script('custom_script',
+   get_template_directory_uri() . '/js/slider.js',
+   array('jquery'),
+   '1.0' );
+ // enqueue the script
+  wp_enqueue_script('custom_script');
+  }
+add_action('wp_enqueue_scripts', 'my_scripts_method');
+
+
 function berrybeauty_scripts() {
 	wp_enqueue_style( 'berrybeauty-style', get_stylesheet_uri() );
 
@@ -123,6 +136,7 @@ function berrybeauty_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'berrybeauty_scripts' );
+
 
 /**
  * Implement the Custom Header feature.
@@ -148,3 +162,4 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+

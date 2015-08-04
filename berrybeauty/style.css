@@ -301,12 +301,6 @@ p {
 	margin-bottom: 1.5em;
 }
 
-h2 a {
-	padding-left: 35px;
-	background: url('http://i58.tinypic.com/1198pop.jpg') no-repeat;
-	
-}
-
 h2.pagetitle {
 	font-size: 2.5em;
 	font-family: Georgia, 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
@@ -319,7 +313,7 @@ h3 {
 h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description {
 	text-decoration: none;
 	font-family: 'Lobster', 'Lucida Grande', Verdana, Sans-Serif;
-	color: #fff;
+	color: #960A24;
 	font-size: 65px;
 	}
 
@@ -536,12 +530,12 @@ textarea {
 .container{
 	background: none repeat scroll 0 0 transparent;
     margin: 0 auto;
-	width:760px;
+	width:680px;
 }
 #primary{
 	margin:auto;
 	padding: 0;
-    width: 760px;
+    width: 680px;
 }
 #secondary{
 }
@@ -558,25 +552,28 @@ textarea {
 	padding: 20px 40px 20px 40px;
 }
 .gridcontainer{
-    padding: 3.126%;
-    max-width:100%;
+    max-width:660px;
+    margin:auto;
     }
 
 .gridcontainer h2 a{
    color: #731A33;
+
 } 
 
 .gridcontainer h2 a:hover{
    color: #C86883;} 
 .gridcontainer .gridleft
 {   float: left; 
-    width: 20.83%; 
-    margin: 0 2.08%;
+    width: 30%; 
+    margin:  0px 2px 0px 20px;
+    padding:10px;
 }
 .gridcontainer .gridright{
     float: left;
-    width: 20.83%;
-    margin: 0 1.04% 0 2.08%;
+    width: 30%;
+    margin: 0px 2px 0px 20px;
+    padding:10px;
 }
 .gridcontainer .postimage{
     margin: 0 0 0.52% 0;
@@ -584,6 +581,10 @@ textarea {
 .gridcontainer .postimage-title {
     text-align: center;
     font-family: 'Fredericka the Great','Times New Roman', sans-serif;
+}
+.postimage img {
+    height: 150px;
+    width: 150px;
 }
 
 
@@ -606,7 +607,7 @@ textarea {
     color:#ffffff;
 }
 #site-navigation{
-	background-color:#ffffff;
+	background-color:transparent;
 	width:100%;
 	padding:10px;
 	border-radius: 25px;
@@ -622,13 +623,13 @@ a {
 }
 
 a:visited {
-	color: purple;
+	color: #960A24;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: #DC506A;
 }
 
 a:focus {
@@ -1018,4 +1019,37 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/** 
+ * Slideshow controls style rules.
+ */
+/**.control {
+  display:block;
+  width:39px;
+  height:263px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl {
+  top:0;
+  left:0;
+  background:transparent url(img/control_left.png) no-repeat 0 0;
+}
+#rightControl {
+  top:0;
+  right:0;
+  background:transparent url(img/control_right.png) no-repeat 0 0;
+} */
+
+#gallery li {
+display: inline;
+margin-right: 3px;
+}
+#gallery #main-img {
+background: white;
+padding: 10px;
+width:100%;
+height: 500px;
 }
