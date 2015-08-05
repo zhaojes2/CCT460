@@ -297,7 +297,7 @@ h6 {
 
 h1 {
 	font-family: 'Lobster','Trebuchet MS', 'Lucida Grande';
-	font-size: 4em;
+	font-size: 2em;
 	}
 
 p {
@@ -306,8 +306,9 @@ p {
 
 h2.pagetitle {
 	font-size: 2.5em;
-	font-family: Georgia, 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-family: 'Philosopher', 'Lucida Grande', Verdana, Sans-Serif;
 	}
+
 
 h3 { 
 	font-size: 1em; 
@@ -315,13 +316,11 @@ h3 {
 
 h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description {
 	text-decoration: none;
-	font-family: 'Lobster', 'Lucida Grande', Verdana, Sans-Serif;
 	color: #960A24;
-	font-size: 65px;
 	}
 
 h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited { 
-	color: #333; 
+	color: #960A24; 
 }
 
 h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
@@ -387,6 +386,14 @@ p.site-description {
 
 .sub-menu a{
 	color: #960A24;
+}
+
+.widget-title {
+	font-size: 1em;
+}
+
+.entry-title {
+	font-family: 'Philosopher', 'Lucida Grande', Verdana, Sans-Serif;
 }
 /*--------------------------------------------------------------
 # Elements
@@ -546,10 +553,13 @@ textarea {
 #primary{
 	margin:auto;
 	padding: 0;
-    width: 680px;
 }
 #secondary{
+    float: left;
+    width: 25%;
+    padding-top: 50px;
 }
+
 #main{
 	padding-top:30px;
 }
@@ -568,7 +578,7 @@ textarea {
 /* Home page grid*/
 
 .gridcontainer{
-    max-width:660px;
+    max-width: 100%;
     margin-top: 40px;
     }
 
@@ -612,8 +622,19 @@ textarea {
     background: #F9E2E6;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-family: Helvetica, "Times New Roman"
 }
+#colophon a {
+	 font-weight: 300;
+	 font-family: Helvetica, "Times New Roman"
+}
+
+/* Sidebar */
+.blog #primary, .single #primary, .archive #primary{
+float:left;
+width:75%;
+}
+
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -900,6 +921,8 @@ a:active {
 
 .hentry {
 	margin: 0 0 1.5em;
+	padding-bottom:10px;
+	border-bottom: 2px dashed #F660AB;
 }
 
 .byline,
@@ -916,7 +939,7 @@ a:active {
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
-	width:680px;
+	width:100%;
 }
 
 .page-links {

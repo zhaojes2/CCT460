@@ -60,8 +60,7 @@
                                 else { //if there is no image, it will use this default image (reference Wordpress Codex)
                                 echo '<img src="' . get_bloginfo( 'stylesheet_directory' ) . '/img/noimg.jpg" />';}?> 
                         </a> 
-                    </div> 
-                </div>
+                    </div>
                         <h2 class ="postimage-title"> 
                             <!--Post Title under image -->
                             <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
@@ -71,6 +70,7 @@
                                 else { the_title(); } ?>
                             </a>
                         </h2> 
+                </div>
 
                 <?php 
                 //will run loop if counter is equal to row

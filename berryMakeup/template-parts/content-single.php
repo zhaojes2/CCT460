@@ -18,6 +18,8 @@
 
 	<div class="entry-content">
 		<?php the_content(); ?>
+		<!-- check if the post has a Post Thumbnail assigned to it. -->
+		<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'full' );} ?>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'berrybeauty' ),
