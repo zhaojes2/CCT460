@@ -13,13 +13,13 @@
 
         <div id="gallery">
                 <img src="wp-content/themes/berryMakeup/img/7.jpg" alt="" id="main-img" />
-                <ul>
-                  <li><img src="wp-content/themes/berryMakeup/img/1.jpg" alt="" width="80" /></li>
-                  <li><img src="wp-content/themes/berryMakeup/img/2.jpg" alt="" width="80" /></li>
-                  <li><img src="wp-content/themes/berryMakeup/img/3.jpg" alt="" width="80" /></li>
-                  <li><img src="wp-content/themes/berryMakeup/img/4.jpg" alt="" width="80" /></li>
-                  <li><img src="wp-content/themes/berryMakeup/img/5.jpg" alt="" width="80" /></li>
-                  <li><img src="wp-content/themes/berryMakeup/img/6.jpg" alt="" width="80" height="80" /></li>
+                <ul class="simg">
+                  <li><img src="wp-content/themes/berryMakeup/img/1.jpg" alt="" width="60" /></li>
+                  <li><img src="wp-content/themes/berryMakeup/img/2.jpg" alt="" width="60" /></li>
+                  <li><img src="wp-content/themes/berryMakeup/img/3.jpg" alt="" width="60" /></li>
+                  <li><img src="wp-content/themes/berryMakeup/img/4.jpg" alt="" width="60" /></li>
+                  <li><img src="wp-content/themes/berryMakeup/img/5.jpg" alt="" width="60" /></li>
+                  <li><img src="wp-content/themes/berryMakeup/img/6.jpg" alt="" width="60" /></li>
                 </ul>
         </div>
             

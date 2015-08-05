@@ -26,7 +26,7 @@
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
 		?>
-
+	<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'full' );} ?>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'berrybeauty' ),
@@ -34,8 +34,4 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php berrybeauty_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

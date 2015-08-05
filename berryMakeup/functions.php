@@ -168,3 +168,8 @@ require get_template_directory() . '/inc/jetpack.php';
  */
 require get_stylesheet_directory() . '/inc/options.php';
 
+//register mobile menu
+function mobile_setup() {
+register_nav_menu ('primary mobile', __( 'Navigation Mobile', 'BerryMakeup' ));
+}
+add_action( 'after_setup_theme', 'mobile_setup' );
