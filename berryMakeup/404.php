@@ -52,5 +52,5 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+</div><!-- #page -->
 <?php get_footer(); ?>

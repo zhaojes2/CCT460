@@ -78,6 +78,22 @@ function berrybeauty_setup() {
 endif; // berrybeauty_setup
 add_action( 'after_setup_theme', 'berrybeauty_setup' );
 
+//add custom post type 
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+  register_post_type( 'acme_tutorial',
+    array(
+      'labels' => array(
+        'name' => __( 'Tutorials' ),
+        'singular_name' => __( 'Tutorials' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+    )
+  );
+}
+
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -173,3 +189,4 @@ function mobile_setup() {
 register_nav_menu ('primary mobile', __( 'Navigation Mobile', 'BerryMakeup' ));
 }
 add_action( 'after_setup_theme', 'mobile_setup' );
+ 
