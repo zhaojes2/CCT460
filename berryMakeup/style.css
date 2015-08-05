@@ -967,6 +967,56 @@ a:active {
 	padding: 0;
 }
 
+	 #menu-mobile-menu {
+        display: none;
+	}
+	
+	/* smartphone screen  (portrait mode) */
+@media only screen and (min-width : 320px) and (max-width : 568px) and (orientation : portrait) {
+    .container {
+        max-width: 320px; 
+    } 
+    .home .post {
+		float: left;
+		width: 100%;
+		overflow: hidden;
+	}
+	.site-branding h1 {
+   	 	font-size: 3em;
+	}
+	#primary {
+		width:100%;
+	}
+	#colophon .widget {
+		width:90%;
+	}
+	.wp-post-image {
+    	width:100%;
+    	margin:auto;
+    	height: auto;
+    	padding: 10px;
+	}
+	.menu-items {
+	display: none;
+	}
+	
+	#menu-mobile-menu {
+        display: block;
+    }
+    
+    .nav-mobile-menu {
+    	display: none;
+    }
+}
+    
+    /* Smartphone screen (landscape mode) */
+@media only screen and (min-width : 320px) and (max-width : 568px) and (orientation : landscape) {
+
+    .container {
+    	width: 568px;
+    	margin:auto; }
+	}
+
 /* Make sure embeds and iframes fit their containers. */
 embed,
 iframe,
