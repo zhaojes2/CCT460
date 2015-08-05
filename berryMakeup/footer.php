@@ -15,7 +15,7 @@
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'berrybeauty' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'berrybeauty' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'berrybeauty' ), 'berrybeauty', '<a href="http://underscores.me/" rel="designer">CCT460 YBSZ TL MK</a>' ); ?>
+			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'berryMakeup' ), 'berryMakup', '<a href="http://underscores.me/" rel="designer">CCT460 YBSZ TL MK</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 
