@@ -1108,27 +1108,6 @@ object {
 	display: block;
 }
 
-/** 
- * Slideshow controls style rules.
- */
-/**.control {
-  display:block;
-  width:39px;
-  height:263px;
-  text-indent:-10000px;
-  position:absolute;
-  cursor: pointer;
-}
-#leftControl {
-  top:0;
-  left:0;
-  background:transparent url(img/control_left.png) no-repeat 0 0;
-}
-#rightControl {
-  top:0;
-  right:0;
-  background:transparent url(img/control_right.png) no-repeat 0 0;
-} */
 
 #gallery li {
 display: inline;

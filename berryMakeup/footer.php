@@ -18,11 +18,8 @@
 			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'berrybeauty' ), 'berrybeauty', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
-<<<<<<< HEAD
-=======
-</div><!-- #page -->
->>>>>>> parent of c666ecf... updated reponsive
 
+</div><!-- #page -->
 <?php wp_footer(); ?>
 
 </body>

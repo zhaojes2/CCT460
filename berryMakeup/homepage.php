@@ -3,11 +3,7 @@
 /**
  * Template Name: Home Page 
  * by YiBing (Jessca) Zhao 999826210
-<<<<<<< HEAD
- * @package berryMakeup
-=======
  * @package berrybeuty
->>>>>>> parent of c666ecf... updated reponsive
  */
 ?>
 
@@ -16,7 +12,6 @@
 <main id="main" class="site-main" role="main">
 
 <div id="gallery">
-<<<<<<< HEAD
     <img src="wp-content/themes/berryMakeup/img/7.jpg" alt="" id="main-img" />
     <ul>
       <li><img src="wp-content/themes/berryMakeup/img/1.jpg" alt="" width="80" /></li>
@@ -25,16 +20,6 @@
       <li><img src="wp-content/themes/berryMakeup/img/4.jpg" alt="" width="80" /></li>
       <li><img src="wp-content/themes/berryMakeup/img/5.jpg" alt="" width="80" /></li>
       <li><img src="wp-content/themes/berryMakeup/img/6.jpg" alt="" width="80" height="80" /></li>
-=======
-    <img src="wp-content/themes/berrybeauty/img/7.jpg" alt="" id="main-img" />
-    <ul>
-      <li><img src="wp-content/themes/berrybeauty/img/1.jpg" alt="" width="80" /></li>
-      <li><img src="wp-content/themes/berrybeauty/img/2.jpg" alt="" width="80" /></li>
-      <li><img src="wp-content/themes/berrybeauty/img/3.jpg" alt="" width="80" /></li>
-      <li><img src="wp-content/themes/berrybeauty/img/4.jpg" alt="" width="80" /></li>
-      <li><img src="wp-content/themes/berrybeauty/img/5.jpg" alt="" width="80" /></li>
-      <li><img src="wp-content/themes/berrybeauty/img/6.jpg" alt="" width="80" height="80" /></li>
->>>>>>> parent of c666ecf... updated reponsive
     </ul>
 </div>
 
@@ -53,11 +38,7 @@ $titlelength = 20;
 $args = array(
     'ignore_sticky_posts' => 1,
     'showposts' => 6, 
-<<<<<<< HEAD
     'cat' => 192);
-=======
-    'cat' => 40);
->>>>>>> parent of c666ecf... updated reponsive
 $my_query = new WP_Query($args);
 
 //The expanded Loop 
