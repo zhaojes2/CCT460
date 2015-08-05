@@ -47,20 +47,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
-<<<<<<< HEAD
+
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Philosopher);
 
-=======
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-@import url(http://fonts.googleapis.com/css?family=Poiret+One);
-@import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Philosopher);
->>>>>>> parent of c666ecf... updated reponsive
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -568,11 +561,8 @@ textarea {
 	border: 0px solid #000;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-<<<<<<< HEAD
     padding: 20px 40px 20px 40px;
-=======
-	padding: 20px 40px 20px 40px;
->>>>>>> parent of c666ecf... updated reponsive
+
 }
 
 /* Home page grid*/
