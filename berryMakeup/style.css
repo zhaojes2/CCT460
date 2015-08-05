@@ -1014,6 +1014,12 @@ a:active {
     .nav-mobile-menu {
     	display: none;
     }
+
+    #gallery #main-img {
+    	background: #FFF none repeat scroll 0% 0%;
+    	padding: 10px;
+    	width: 100%;
+    }
 }
     
     /* Smartphone screen (landscape mode) */
