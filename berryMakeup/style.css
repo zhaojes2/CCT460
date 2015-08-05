@@ -994,14 +994,14 @@ a:active {
 		width: 100%;
 		overflow: hidden;
 	}
-	.site-branding h1 {
+	.site-branding a {
    	 	font-size: 3em;
 	}
 	#primary {
 		width:100%;
 	}
-	#colophon .widget {
-		width:90%;
+	#colophon {
+		width:100%;
 	}
 	.wp-post-image {
     	width:100%;
