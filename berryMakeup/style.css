@@ -297,7 +297,7 @@ h6 {
 
 h1 {
 	font-family: 'Lobster','Trebuchet MS', 'Lucida Grande';
-	font-size: 4 em;
+	font-size: 4em;
 	}
 
 p {
@@ -687,7 +687,6 @@ a:active {
 }
 
 .main-navigation li {
- 	float: center;
 	padding:0 8px;
 	position: relative;
 	display:inline-block;
