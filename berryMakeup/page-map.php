@@ -2,11 +2,16 @@
 /**
  * Template Name: Site Map Page
  *
+<<<<<<< HEAD
  * @package BerryMakeup
+=======
+ * @package fluffy-master
+>>>>>>> parent of c666ecf... updated reponsive
  */
 
 get_header(); ?>
 
+<<<<<<< HEAD
 <div id="primary" class="content-area">
 <main id="main" class="site-main" role="main">
 
@@ -48,4 +53,18 @@ get_header(); ?>
 </main><!-- #main -->
 </div><!-- #primary -->
 </div><!-- #page -->
+=======
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			<?php while ( have_posts() ) : the_post(); ?>
+
+				<?php get_template_part( 'template-parts/pagemap', 'page' ); ?>
+
+			<?php endwhile; // end of the loop. ?>
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+>>>>>>> parent of c666ecf... updated reponsive
 <?php get_footer(); ?>

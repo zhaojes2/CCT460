@@ -10,8 +10,13 @@
  *
  * @package BerryBeauty
  */
+<<<<<<< HEAD
 ?> 
 <?php get_header(); ?>
+=======
+
+get_header(); ?>
+>>>>>>> parent of c666ecf... updated reponsive
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -51,5 +56,8 @@
 	</div><!-- #primary -->
 
 <?php get_sidebar(); ?>
+<<<<<<< HEAD
 </div><!-- #page -->
+=======
+>>>>>>> parent of c666ecf... updated reponsive
 <?php get_footer(); ?>

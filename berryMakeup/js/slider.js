@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /** Javascript reference 
 * from http://www.designchemical.com/blog/index.php/jquery/jquery-image-swap-gallery/
 */
@@ -19,3 +20,10 @@ $.fn.preload = function() {
         jQuery('<img/>')[0].src = this;
     });
 }
+=======
+jQuery(document).ready(function(jQuery) {
+    jQuery("#gallery li img").hover(function(){
+        jQuery('#main-img').attr('src',jQuery(this).attr('src').replace('thumb/', '')).parent().attr('href',jQuery(this).parent().attr('href'));
+    });
+});
+>>>>>>> parent of c666ecf... updated reponsive

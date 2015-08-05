@@ -113,12 +113,20 @@ add_action( 'widgets_init', 'berrybeauty_widgets_init' );
  */
 
 function my_scripts_method() {
+<<<<<<< HEAD
 // register slider javasceipt location 
+=======
+// register your script location, dependencies and version
+>>>>>>> parent of c666ecf... updated reponsive
    wp_register_script('custom_script',
    get_template_directory_uri() . '/js/slider.js',
    array('jquery'),
    '1.0' );
+<<<<<<< HEAD
  // enqueue the javascript
+=======
+ // enqueue the script
+>>>>>>> parent of c666ecf... updated reponsive
   wp_enqueue_script('custom_script');
   }
 add_action('wp_enqueue_scripts', 'my_scripts_method');
@@ -163,8 +171,17 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> parent of c666ecf... updated reponsive
 /**
  * This will control the theme options 
  */
 require get_stylesheet_directory() . '/inc/options.php';
+<<<<<<< HEAD
 
+=======
+>>>>>>> Stashed changes
+>>>>>>> parent of c666ecf... updated reponsive
