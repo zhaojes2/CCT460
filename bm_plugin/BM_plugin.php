@@ -66,3 +66,24 @@ public function form( $instance ) {
           </p>
           <?php
           }
+
+// Updating widget replacing old instances with new
+
+public function update( $new_instance, $old_instance ) {
+        $instance = array();
+        $instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] 
+) : '';
+
+        return $instance;
+
+}
+
+} // Class bm_widget ends here
+
+// Register and load the widget
+
+function bm_load_widget() {
+    register_widget( 'bm_widget' );
+}
+  add_action( 'widgets_init', 'bm_load_widget' );
+
