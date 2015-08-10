@@ -78,7 +78,7 @@ function berrybeauty_setup() {
 endif; // berrybeauty_setup
 add_action( 'after_setup_theme', 'berrybeauty_setup' );
 
-//add custom post type 
+/* add custom post type 
 add_action( 'init', 'create_post_type' );
 function create_post_type() {
   register_post_type( 'acme_tutorial',
@@ -91,7 +91,7 @@ function create_post_type() {
       'has_archive' => true,
     )
   );
-}
+} */
 
 
 /**
