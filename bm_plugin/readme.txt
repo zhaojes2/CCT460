@@ -8,9 +8,9 @@
 Contributors: kimeun18, zhaojes2, tifflam \
 Donate link: http://phoenix.sheridanc.on.ca/~ccit2724/\
 Tags: widget, custom post type, image\
-Requires at least: 3.9.2\
-Tested up to: 3.4\
-Stable tag: 1.3\
+Requires at least: 4.0\
+Tested up to: 4.2.2\
+Stable tag: 1.0.0\
 \
 This plugin adds widget and custom post type. The widget will display custom post type with thumbnail images. \
 \
