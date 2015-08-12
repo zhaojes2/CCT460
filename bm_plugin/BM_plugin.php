@@ -8,10 +8,22 @@
 
 //reference from Wordpress Codex 
 
+/* ------------------------
+ Enqueue plugin stylesheet 
+ ---------------------------*/
+
+function enqueue_bm_stylesheet() {
+
+    wp_register_style( 'myCSS', plugins_url( '/css/style.css', __FILE__ ) );
+    wp_enqueue_style( 'myCSS' ); 
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_bm_stylesheet' );
+
 /* ---------------------
    Add custom post type 
    ---------------------*/
 add_action( 'init', 'create_post_type' );
+
     function create_post_type() {
     register_post_type( 'bm_tutorial', //text domain of custom post type
         array(
@@ -65,7 +77,7 @@ class bm_widget extends WP_Widget {
             if (!empty($title))
             echo $before_title . $title . $after_title;;
       // Custom Post Type Query: bm_tutorial ?>
-            <ul class="bm_widget">
+            <ul class="widget_list">
               <?php // Create and run custom loop
                   $custom_posts = new WP_Query();
                   //Define query post type bm_tutorial, show 3 post per page 
@@ -75,7 +87,7 @@ class bm_widget extends WP_Widget {
                     <li> <?php //checks to see if there is a thumbnail/featured image
                         if ( has_post_thumbnail() ) {the_post_thumbnail();} 
                         //link the title to the post ?>
-                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                      </li>
                   <?php endwhile; ?>
             </ul>
